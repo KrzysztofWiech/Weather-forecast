@@ -1,6 +1,6 @@
 package pl.akademiakodu.wheatherforecast;
 
-public class WheatherModel {
+public class WeatherModel {
 
     private WheatherDetails main;
 
@@ -21,7 +21,7 @@ public class WheatherModel {
         }
 
         public void setTemp(double temp) {
-            this.temp = temp;
+            this.temp = temp - 273;
         }
     }
 

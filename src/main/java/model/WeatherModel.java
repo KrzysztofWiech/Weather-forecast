@@ -1,7 +1,5 @@
 package model;
 
-import org.springframework.ui.ModelMap;
-import org.springframework.web.client.RestTemplate;
 
 import java.text.DecimalFormat;
 

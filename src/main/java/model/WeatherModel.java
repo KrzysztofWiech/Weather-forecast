@@ -7,17 +7,17 @@ import java.text.DecimalFormat;
 
 public class WeatherModel {
 
-    private WheatherDetails main;
+    private WeatherDetails main;
 
-    public WheatherDetails getMain() {
+    public WeatherDetails getMain() {
         return main;
     }
 
-    public void setMain(WheatherDetails main) {
+    public void setMain(WeatherDetails main) {
         this.main = main;
     }
 
-    public static class WheatherDetails {
+    public static class WeatherDetails {
         private double temp;
 
 

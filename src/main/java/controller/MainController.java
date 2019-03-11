@@ -20,6 +20,7 @@ public class MainController {
         return "";
     }
 
+
     @GetMapping("/weathers/search")
     public String search(@RequestParam(required = false) String city, ModelMap modelMap) {
         if (city != null) {
